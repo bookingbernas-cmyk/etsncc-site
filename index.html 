@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exclusive Transfer Service</title>
+
+  <style>
+    body {
+      margin:0;
+      font-family:Arial;
+      background:#0b0b0f;
+      color:white;
+      text-align:center;
+    }
+
+    header {
+      padding:20px;
+      background:black;
+    }
+
+    h1 {
+      margin-top:80px;
+      font-size:32px;
+    }
+
+    p {
+      margin-top:10px;
+    }
+
+    .btn {
+      display:inline-block;
+      margin:10px;
+      padding:12px 18px;
+      text-decoration:none;
+    }
+
+    .primary {
+      background:#d4af37;
+      color:black;
+    }
+
+    .ghost {
+      border:1px solid #d4af37;
+      color:#d4af37;
+    }
+
+    .sticky {
+      position:fixed;
+      bottom:0;
+      width:100%;
+      display:flex;
+    }
+
+    .sticky a {
+      flex:1;
+      padding:15px;
+      text-align:center;
+      text-decoration:none;
+    }
+
+    .call {
+      background:#d4af37;
+      color:black;
+    }
+
+    .quote {
+      border:1px solid #d4af37;
+      color:#d4af37;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h2>Exclusive Transfer Service</h2>
+</header>
+
+<section>
+  <h1>NCC di Lusso Milano & Lago di Como</h1>
+  <p>Transfer privati ed esperienze su misura</p>
+
+  <a href="mailto:booking@etsncc.com" class="btn primary">Richiedi transfer</a>
+  <a href="tel:+393757715124" class="btn ghost">Chiama ora</a>
+</section>
+
+<div class="sticky">
+  <a href="tel:+393757715124" class="call">Chiama</a>
+  <a href="mailto:booking@etsncc.com" class="quote">Preventivo</a>
+</div>
+
+</body>
+</html>
